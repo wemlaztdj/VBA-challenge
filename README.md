@@ -12,4 +12,6 @@ Percentage change from the opening price to the closing price
 
 Total stock volume
 
+the "Greatest % increase", "Greatest % decrease", and "Greatest total volume" ticker for each year.
+
 
