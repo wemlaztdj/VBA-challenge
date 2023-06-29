@@ -1,4 +1,4 @@
-Attribute VB_Name = "VBA-challenge"
+Attribute VB_Name = "VBAchallenge"
 Option Explicit
 Private MaxIncrease As Double
 Private MIticker As String
