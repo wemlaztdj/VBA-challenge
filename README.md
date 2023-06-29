@@ -14,3 +14,6 @@ the "Greatest % increase", "Greatest % decrease", and "Greatest total volume" ti
 ![example0](https://github.com/wemlaztdj/VBA-challenge/blob/main/Screenshot%200.png)
 
 ![example1](https://github.com/wemlaztdj/VBA-challenge/blob/main/Screenshot%201.png)
+
+## Installation
+Open Visual Basic Editor in Excel
