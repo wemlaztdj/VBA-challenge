@@ -7,7 +7,7 @@ Private MDticker As String
 Private MaxTotal As LongLong
 Private MTticker As String
 
-Sub loopSheet()
+Sub StockAnalysis()
 'loop through every sheet
 Application.ScreenUpdating = False
 Dim wks As Worksheet
