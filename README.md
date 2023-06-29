@@ -5,7 +5,11 @@ This VBA script allows you to analyze stock data for a given year, calculate var
 The script loops through each worksheet in a workbook, retrieves and stores the necessary data, and provides the following information:
 
 Ticker symbol
+
 Yearly change from the opening price to the closing price
+
 Percentage change from the opening price to the closing price
+
 Total stock volume
+
 
