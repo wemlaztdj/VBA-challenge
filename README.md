@@ -17,3 +17,6 @@ the "Greatest % increase", "Greatest % decrease", and "Greatest total volume" ti
 
 ## Installation
 Open Visual Basic Editor in Excel
+Download VBA-challenge.bas
+Open File->import File then open VBA-challenge.bas
+
