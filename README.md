@@ -26,3 +26,5 @@ Download VBA-challenge.bas
 
 Open File->import File then open VBA-challenge.bas
 
+## limitations
+The data set needs to be sorted by Ticker
