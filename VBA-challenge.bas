@@ -22,7 +22,7 @@ Application.ScreenUpdating = True
 End Sub
 
 Private Sub Readdata(wks As Worksheet, LastRow As LongLong)
-
+'read the data on the sheet
 'Dim variables
 Dim ticker As String
 Dim thedate As Long
@@ -96,7 +96,7 @@ Private Sub setCF(wks As Worksheet, SRow As LongLong)
 
 End Sub
 Private Sub GetMaxs(ticker, change, volume)
-'Check max value
+'Check max values
     If change > MaxIncrease Then
         MaxIncrease = change
         MIticker = ticker
@@ -113,7 +113,7 @@ Private Sub GetMaxs(ticker, change, volume)
 End Sub
 
 Private Sub printMaxs(wks As Worksheet)
-'add header
+'add headers to the sheet
     wks.Cells(1, 16) = "Ticker"
     wks.Cells(1, 17) = "Value"
     wks.Cells(2, 15) = "Greatest % Increase"
