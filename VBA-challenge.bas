@@ -57,7 +57,7 @@ Dim tickerRow As LongLong
             SumVolume = wks.Cells(I, 7)
         Else
             If thedate < CLng(wks.Cells(I, 2)) Then
-                endingPrice = wks.Cells(I, 5)
+                endingPrice = wks.Cells(I, 6)
             ElseIf thedate > CLng(wks.Cells(I, 2)) Then
                 openingPrice = wks.Cells(I, 3)
             Else
