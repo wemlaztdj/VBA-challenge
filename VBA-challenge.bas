@@ -25,7 +25,8 @@ Private Sub Readdata(wks As Worksheet, LastRow As LongLong)
 'read the data on the sheet
 'Dim variables
 Dim ticker As String
-Dim thedate As Long
+Dim openingPrice As Double
+Dim endingPrice As Double
 Dim openingPrice As Double
 Dim endingPrice As Double
 Dim SumVolume As LongLong
@@ -56,12 +57,12 @@ Dim tickerRow As LongLong
             endingPrice = wks.Cells(I, 6)
             SumVolume = wks.Cells(I, 7)
         Else
-            If thedate < CLng(wks.Cells(I, 2)) Then
+            If theEndDate < CLng(wks.Cells(I, 2)) Then
                 endingPrice = wks.Cells(I, 6)
-            ElseIf thedate > CLng(wks.Cells(I, 2)) Then
+                theEndDate = CLng(wks.Cells(I, 2))
+            ElseIf theOpenDate > CLng(wks.Cells(I, 2)) Then
                 openingPrice = wks.Cells(I, 3)
-            Else
-                MsgBox ("duplicate date for " & ticker & " on " & thedate)
+                theOpenDate = CLng(wks.Cells(I, 2))
             End If
             SumVolume = SumVolume + wks.Cells(I, 7)
             
