@@ -52,7 +52,8 @@ Dim tickerRow As LongLong
             End If
             
             ticker = wks.Cells(I, 1)
-            thedate = CLng(wks.Cells(I, 2))
+            theOpenDate = CLng(wks.Cells(I, 2))
+            theEndDate = CLng(wks.Cells(I, 2))
             openingPrice = wks.Cells(I, 3)
             endingPrice = wks.Cells(I, 6)
             SumVolume = wks.Cells(I, 7)
