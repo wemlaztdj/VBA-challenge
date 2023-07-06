@@ -25,8 +25,8 @@ Private Sub Readdata(wks As Worksheet, LastRow As LongLong)
 'read the data on the sheet
 'Dim variables
 Dim ticker As String
-Dim openingPrice As Double
-Dim endingPrice As Double
+Dim theOpenDate As Long
+Dim theEndDate As Long
 Dim openingPrice As Double
 Dim endingPrice As Double
 Dim SumVolume As LongLong
