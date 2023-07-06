@@ -26,5 +26,8 @@ Download VBA-challenge.bas
 
 Open File->import File then open VBA-challenge.bas
 
+alphabetical_testing.xlsx is the data set.
+alphabetical_testing.xlsm is the backup with my code.
+
 ## limitations
 The data set needs to be sorted by Ticker
